@@ -8,6 +8,7 @@ class Header extends Component {
        var linkedin = this.props.data.linkedin;
        var github = this.props.data.github;
       var name = this.props.data.name;
+      var email = "mailto:"+this.props.data.email;
       var description= this.props.data.description;
     }
 
@@ -34,8 +35,9 @@ class Header extends Component {
             <h3>{description}.</h3>
             <hr />
             <ul className="social">
-               <a href={linkedin} className="button btn github-btn"><i className="fa fa-linkedin"></i>Linkedin</a>
+               <a href={linkedin} className="button btn project-btn"><i className="fa fa-linkedin"></i>Linkedin</a>
                <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+               <a href={email} className="button btn email-btn"><i className="fa fa-envelope"></i>Email</a>
             </ul>
          </div>
       </div>
