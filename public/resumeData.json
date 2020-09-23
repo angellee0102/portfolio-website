@@ -1,0 +1,117 @@
+{
+  "main": {
+    "name":"Angel Lee",
+    "description":"I am a problem solver with experiences in strategy consulting and software engineering. I solve quantitative problems with code and qualitative problems with structured thinking. I also develop websites with react.",
+    "image":"profilepic.jpg",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "fangyulee0102@gmail.com",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "city":"Taipei, Taiwan"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://docs.google.com/document/d/e/2PACX-1vT3b_fFLuNFuqxIDQXlA4seSM2Yrq9_xl7Z_1EiRRIj44u52HUYc6nPZzRf8Y-KuMbTte7C9P6Qudzc/pub",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"National Chiao Tung University",
+        "degree":"Information Management and Finance",
+        "graduated":"Jan 2021 (expected)",
+        "description":"Relevant Coursework: Data Mining, Machine Learning, Statistics, Econometrics, Linear Algebra, Database Management Systems, Algorithms, Data Structures, Financial Management, Economics "
+      },
+      {
+        "school":"University of Mannheim",
+        "degree":"Business Informatics (exchange)",
+        "graduated":"Aug 2018 - Jun 2019",
+        "description":"Studied Abroad in Germany for one year with scholarship from NCTU"
+      }
+    ],
+    "work":[
+      {
+        "company":"Boston Consulting Group",
+        "url":"https://www.bcg.com/",
+        "location":"Taipei, Taiwan",
+        "title":"Part-Time Assistant",
+        "years":"Apr 2020 - Present",
+        "description":"Conducted industry research and market analyses, and presented meaningful findings and insights to consultants to help achieve desired business outcomes"
+      },
+      {
+        "company":"Sociovestix Labs",
+        "url":"http://www.sociovestix.com/",
+        "location":"Germany / remote",
+        "title":"Financial Data Scientist Intern",
+        "years":"Dec 2018 - Present",
+        "description":"Worked on an interactive website project to support user’s decision making process by providing financial data visualization and improving collaboration process"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Resume/Portfolio Website",
+        "category":"A React based resume/portfolio website",
+        "image":"portfolio-website.png",
+        "url":""
+      },
+      {
+        "title":"Phishing Email Detection",
+        "detail":"a real-time app that can detect phishing emails based on the sender, subject, and email content.",
+        "image":"detect-phish.gif",
+        "url":"https://detect-phish.herokuapp.com/"
+      },
+      {
+        "title":"Master a math game with Python scripts",
+        "detail":"Wrote python scritps to automate playing a math game",
+        "image":"automate-math-game-play.png",
+        "url":"https://github.com/angellee0102/Automate-math-game-play"
+      },
+      {
+        "title":"Telegram Bot",
+        "category":"Built a telegram bot that responses with features such as weather info, stock info, and dictionary",
+        "image":"telegram-bot.gif",
+        "url":"https://github.com/angellee0102/telegram-bot"
+      }
+    ]
+  }
+}
