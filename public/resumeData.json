@@ -88,7 +88,7 @@
     "projects": [
       {
         "title":"Resume/Portfolio Website",
-        "category":"A React based resume/portfolio website",
+        "detail":"A React based resume/portfolio website",
         "image":"portfolio-website.png",
         "url":""
       },
@@ -106,9 +106,15 @@
       },
       {
         "title":"Telegram Bot",
-        "category":"Built a telegram bot that responses with features such as weather info, stock info, and dictionary",
+        "detail":"Built a telegram bot that responses with features such as weather info, stock info, and dictionary",
         "image":"telegram-bot.gif",
         "url":"https://github.com/angellee0102/telegram-bot"
+      },
+      {
+        "title":"Discrete Math Calculator",
+        "detail":"Built a website with react from scratch that calculates discrete-math-related figures",
+        "image":"discrete-math.png",
+        "url":"https://discrete-math.netlify.app/"
       }
     ]
   }
