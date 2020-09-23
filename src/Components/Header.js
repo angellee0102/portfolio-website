@@ -10,11 +10,12 @@ class Header extends Component {
       var name = this.props.data.name;
       var email = "mailto:"+this.props.data.email;
       var description= this.props.data.description;
+      var detailedDescription= this.props.data.detailedDescription;
     }
 
     return (
       <header id="home">
-      <ParticlesBg type="polygon" bg={true} />
+      {/* <ParticlesBg type="polygon" bg={true} /> */}
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -32,7 +33,8 @@ class Header extends Component {
       
          <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
-            <h3>{description}.</h3>
+            <h3>{description}</h3>
+            <h3>{detailedDescription}</h3>
             <hr />
             <ul className="social">
                <a href={linkedin} className="button btn project-btn"><i className="fa fa-linkedin"></i>Linkedin</a>

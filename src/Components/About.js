@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     if (this.props.data) {
-      var name = this.props.data.name;
       var profilepic = "images/" + this.props.data.image;
-      var bio = this.props.data.bio;
-      var email = this.props.data.email;
+      var bio1 = this.props.data.bio1;
+      var bio2 = this.props.data.bio2;
+      var bio3 = this.props.data.bio3;
       var resumeDownload = this.props.data.resumedownload;
     }
 
@@ -21,28 +21,20 @@ class About extends Component {
             />
           </div>
           <div className="nine columns main-col">
-            <h2>About Me</h2>
-            <p>{bio}</p>
-            <div className="row">
-              
-              <div className="columns download">
-                <p>
-                  <a href={resumeDownload} className="button">
-                    <i className="fa fa-chevron-right"></i>View Resume
-                  </a>
-                </p>
-              </div>
-              </div>
-              <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>{name}</span>
-                  <br />
-                  <span>{email}</span>
-                </p>
-              </div>
+            <h1>About Me</h1>
+            <div className="">
+            <h2>{bio1}</h2>
+            <h2>{bio2}</h2>
+            <h2>{bio3}</h2>
             </div>
+            <div className="row">
+                <div className="columns download">
+                  <p>
+                    <a href={resumeDownload} target="_blank" className="button">
+                      <i className="fa fa-chevron-right"></i>View Resume</a>
+                  </p>
+                </div>
+              </div>
           </div>
         </div>
       </section>

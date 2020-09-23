@@ -1,9 +1,12 @@
 {
   "main": {
     "name":"Angel Lee",
-    "description":"A problem solver based in Taipei with experiences in strategy consulting and software engineering",
+    "description":"A problem solver with software engineering and data analysis skills. ",
+    "detailedDescription":"Professional experiences at a top strategy consulting firm and a financial data science startup. ",
     "image":"profilepic.png",
-    "bio":"I solve quantitative problems with code and qualitative problems with structured thinking. I also develop websites with react.",
+    "bio1":"I solve problems quantitatively, using statistical data analysis skills, and qualitatively, using structured thinking and analysis skills. There is a  strong connection between data and business, and I am interested in applying advanced data analysis techniques into the business decision-making process.",
+    "bio2":"I am also a full-stack web developer developing frontend with react, backend with flask, and mySQL for database. Hopefully I create something that's useful and actually solves problems.",
+    "bio3":"Currently on the way to becoming a data-driven Data Scientist that helps companies understand the full value of data to better identify business opportunities",
     "contactmessage":"Look forward to hearing from you! Feel free to contact me through email or connect on Linkedin!",
     "email": "fangyulee0102@gmail.com",
     "github":"https://github.com/angellee0102",
@@ -12,7 +15,7 @@
       "city":"Taipei, Taiwan"
     },
     "website": "https://angellee0102.herokuapp.com/",
-    "resumedownload":"https://docs.google.com/document/d/e/2PACX-1vT3b_fFLuNFuqxIDQXlA4seSM2Yrq9_xl7Z_1EiRRIj44u52HUYc6nPZzRf8Y-KuMbTte7C9P6Qudzc/pub",
+    "resumedownload":"https://drive.google.com/file/d/1RJMX7A5El_P__9WLaXLCpPyeX-PuFUwY/view?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -63,23 +66,19 @@
     "skills":[
       {
         "name":"Programming & Software",
-        "detail":"Python, Javascript, C, SQL, RapidMiner, Git, Linux shell",
-        "level":"100%"
+        "detail":"Python, Javascript, C, SQL, RapidMiner, Git, Linux shell"
       },
       {
         "name":"Data Analysis",
-        "detail":"Exploratory Data Analysis, Data Visualization, Machine Learning, Web crawling. Familiar with pandas, Matplotlib, NLTK, scikit-learn, keras, Gurobi optimizer, and Excel",
-        "level":"100%"
+        "detail":"Data Preprocessing, Feature Engineering, Statistical Analysis, Data Visualization, and Machine Learning Modeling. Toolkit: pandas, Matplotlib, NLTK, scikit-learn, keras, Gurobi optimizer, and Excel"
       },
       {
         "name":"Full-stack Web Development",
-        "detail":"react/redux, flask, mySQL, netlify, heroku",
-        "level":"100%"
+        "detail":"react/redux, flask, mySQL, netlify, heroku"
       },
       {
         "name":"Spoken Languages",
-        "detail":"English (fluent), Chinese (native), Japanese (passed JLPT N2), German (A2 level)",
-        "level":"100%"
+        "detail":"English (fluent), Chinese (native), Japanese (passed JLPT N2), German (A2 level)"
       }
 
     ]
@@ -101,7 +100,7 @@
       {
         "title":"Master a math game with Python scripts",
         "detail":"Wrote python scritps to automate playing a math game",
-        "image":"automate-math-game-play.png",
+        "image":"automate-math-game.gif",
         "url":"https://github.com/angellee0102/Automate-math-game-play"
       },
       {
