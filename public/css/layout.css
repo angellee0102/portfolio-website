@@ -287,13 +287,13 @@ ul#nav li.current a { color: #fe6928; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 15px;
    list-style: none;
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
-  	background: #333;
+  	margin-bottom: 80px;
+  	/* background: rgb(226, 214, 214); */
   	height: 42px;
   	border-radius: 0px;
 }
@@ -313,7 +313,7 @@ ul#nav li.current a { color: #fe6928; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #e7e0e0;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -820,11 +820,13 @@ call-to-action .button {
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
+   font-weight: bold;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
+   font-weight: bold;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -947,6 +949,8 @@ footer .copyright li {
     margin: 0;
     padding: 0;
     line-height: 24px;
+    font-weight: bold;
+    color: #c2e1e2;
 }
 .ie footer .copyright li {
    display: inline;

@@ -1,13 +1,13 @@
 {
   "main": {
     "name":"Angel Lee",
-    "description":"I am a problem solver with experiences in strategy consulting and software engineering. I solve quantitative problems with code and qualitative problems with structured thinking. I also develop websites with react.",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "description":"A problem solver based in Taipei with experiences in strategy consulting and software engineering. ",
+    "image":"profilepic.png",
+    "bio":"I solve quantitative problems with code and qualitative problems with structured thinking. I also develop websites with react.",
+    "contactmessage":"Look forward to hearing from you! Feel free to contact me through email or connect on Linkedin!",
     "email": "fangyulee0102@gmail.com",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "github":"https://github.com/angellee0102",
+    "linkedin":"https://www.linkedin.com/in/angellee0102",
     "address":{
       "city":"Taipei, Taiwan"
     },
@@ -15,34 +15,19 @@
     "resumedownload":"https://docs.google.com/document/d/e/2PACX-1vT3b_fFLuNFuqxIDQXlA4seSM2Yrq9_xl7Z_1EiRRIj44u52HUYc6nPZzRf8Y-KuMbTte7C9P6Qudzc/pub",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/angellee0102",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/angellee0102",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
         "school":"National Chiao Tung University",
@@ -77,13 +62,26 @@
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
+        "name":"Programming & Software",
+        "detail":"Python, Javascript, C, SQL, RapidMiner, Git, Linux shell",
+        "level":"100%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Data Analysis",
+        "detail":"Exploratory Data Analysis, Data Visualization, Machine Learning, Web crawling. Familiar with pandas, Matplotlib, NLTK, scikit-learn, keras, Gurobi optimizer, and Excel",
+        "level":"100%"
+      },
+      {
+        "name":"Full-stack Web Development",
+        "detail":"react/redux, flask, mySQL, netlify, heroku",
+        "level":"100%"
+      },
+      {
+        "name":"Spoken Languages",
+        "detail":"English (fluent), Chinese (native), Japanese (passed JLPT N2), German (A2 level)",
+        "level":"100%"
       }
+
     ]
   },
   "portfolio":{
