@@ -1,11 +1,11 @@
 {
   "main": {
     "name":"Angel Lee",
-    "description":"A problem solver with software engineering and data analysis skills. ",
+    "description":"A structured-thinking Data Analyst.",
     "detailedDescription":"Professional experiences at a top strategy consulting firm and a financial data science startup. ",
     "image":"profilepic.png",
-    "bio1":"I solve problems quantitatively, using statistical data analysis skills, and qualitatively, using structured thinking and analysis skills. There is a  strong connection between data and business, and I am interested in applying advanced data analysis techniques into the business decision-making process.",
-    "bio2":"I am also a full-stack web developer developing frontend with react, backend with flask, and mySQL for database. Hopefully I create something that's useful and actually solves problems.",
+    "bio1":"A data analyst that understands the strong connection between data and business, and interested in applying advanced data analysis techniques into the business decision-making process.",
+    "bio2":"Also a full-stack web developer developing frontend with react, backend with flask, and mySQL for database.",
     "bio3":"Currently on the way to becoming a data-driven Data Scientist that helps companies understand the full value of data to better identify business opportunities",
     "contactmessage":"Look forward to hearing from you! Feel free to contact me through email or connect on Linkedin!",
     "email": "fangyulee0102@gmail.com",
@@ -35,7 +35,7 @@
       {
         "school":"National Chiao Tung University",
         "degree":"Information Management and Finance",
-        "graduated":"Jan 2021 (expected)",
+        "graduated":"Sep 2016 - Jan 2021 (expected)",
         "description":"Relevant Coursework: Data Mining, Machine Learning, Statistics, Econometrics, Linear Algebra, Database Management Systems, Algorithms, Data Structures, Financial Management, Economics "
       },
       {
@@ -80,7 +80,6 @@
         "name":"Spoken Languages",
         "detail":"English (fluent), Chinese (native), Japanese (passed JLPT N2), German (A2 level)"
       }
-
     ]
   },
   "portfolio":{
@@ -89,7 +88,7 @@
         "title":"Resume/Portfolio Website",
         "detail":"A React based resume/portfolio website",
         "image":"portfolio-website.png",
-        "url":""
+        "url":"http://angellee0102.herokuapp.com/"
       },
       {
         "title":"Phishing Email Detection",
