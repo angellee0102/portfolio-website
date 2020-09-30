@@ -14,7 +14,7 @@
     "address":{
       "city":"Taipei, Taiwan"
     },
-    "website": "https://angellee0102.herokuapp.com/",
+    "website": "https://angellee0102.netlify.app/",
     "resumedownload":"https://drive.google.com/file/d/1RJMX7A5El_P__9WLaXLCpPyeX-PuFUwY/view?usp=sharing",
     "social":[
       {
@@ -88,7 +88,7 @@
         "title":"Resume/Portfolio Website",
         "detail":"A React based resume/portfolio website",
         "image":"portfolio-website.png",
-        "url":"http://angellee0102.herokuapp.com/"
+        "url":"https://angellee0102.netlify.app/"
       },
       {
         "title":"Phishing Email Detection",
