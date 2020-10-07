@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #131f38; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -174,7 +174,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #f75d1b; }
 
 
 /* ------------------------------------------------------------------ */
@@ -218,7 +218,7 @@ ul#nav li.current a { color: #fe6928; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: rgb(10, 78, 179);
 }
 #about .download .button:hover {
    background: #fff;

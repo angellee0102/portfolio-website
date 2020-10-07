@@ -37,8 +37,8 @@ class Header extends Component {
             <hr />
             <ul className="social">
                <a href={linkedin} className="button btn project-btn"><i className="fa fa-linkedin"></i>Linkedin</a>
-               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
-               <a href={email} className="button btn email-btn"><i className="fa fa-envelope"></i>Email</a>
+               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i> Github </a>
+               <a href={email} className="button btn email-btn"><i className="fa fa-envelope"></i> Email  </a>
             </ul>
          </div>
       </div>
